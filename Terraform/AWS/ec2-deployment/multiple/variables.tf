@@ -9,3 +9,7 @@ variable "AWS_SECRET_KEY" {
 variable "AWS_REGION" {
     type = string
 }
+
+variable "Security_Groups" {
+  type = list
+}

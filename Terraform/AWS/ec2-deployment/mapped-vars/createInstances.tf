@@ -7,4 +7,7 @@ resource "aws_instance" "web_instance" {
   tags = {
     Name = "web_instance-${count.index}"
   }
+
+  security_groups = "${var.Security_Groups}"
+  
 }
