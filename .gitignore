@@ -1,0 +1,11 @@
+# Ignore key files
+*_key
+*_key.pub
+*_credentials.json
+
+# Ignore Terraform variable files
+*.tfvars
+
+# Ignore specific folders
+terra-admin/
+ssh-keys/
