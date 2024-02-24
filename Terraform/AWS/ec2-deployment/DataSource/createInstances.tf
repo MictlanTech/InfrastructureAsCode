@@ -1,4 +1,4 @@
-data "aws_availability_zones" "117mictlan" {}
+data "aws_availability_zones" "mictlan-117" {}
 
 data "aws_ami" "aml2023-latest" {
   most_recent = true
